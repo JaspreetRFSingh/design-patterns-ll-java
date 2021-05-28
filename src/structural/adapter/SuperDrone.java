@@ -9,12 +9,12 @@ public class SuperDrone implements Drone{
 
 	@Override
 	public void spinRotors() {
-		System.out.println("Spinning the rotors!!");
+		System.out.println("Spinning the turbo rotors!!");
 	}
 
 	@Override
 	public void takeOff() {
-		System.out.println("Taking off!");
+		System.out.println("Taking off at 15mph!");
 	}
 
 }
