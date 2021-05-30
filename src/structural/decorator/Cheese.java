@@ -2,8 +2,6 @@ package structural.decorator;
 
 public class Cheese extends PizzaTopping{
 
-	Pizza pizza;
-	
 	public Cheese(Pizza pizza) {
 		this.pizza = pizza;
 	}
