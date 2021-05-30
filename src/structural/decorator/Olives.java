@@ -15,7 +15,7 @@ public class Olives extends PizzaTopping {
 
 	@Override
 	public double getCost() {
-		return 19.99;
+		return pizza.getCost() + 19.99;
 	}
 
 }

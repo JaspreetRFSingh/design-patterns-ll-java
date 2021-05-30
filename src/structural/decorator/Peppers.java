@@ -15,7 +15,7 @@ public class Peppers extends PizzaTopping {
 
 	@Override
 	public double getCost() {
-		return 10;
+		return pizza.getCost() + 10;
 	}
 
 }
