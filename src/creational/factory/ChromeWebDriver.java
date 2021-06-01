@@ -12,4 +12,8 @@ public class ChromeWebDriver implements WebDriver{
 		System.out.println("Getting the chrome driver!!");
 	}
 
+	@Override
+	public void run() {
+		System.out.println("Chrome browser running!");
+	}
 }

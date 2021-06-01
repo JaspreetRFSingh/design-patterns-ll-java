@@ -10,4 +10,9 @@ public class EdgeWebDriver implements WebDriver{
 	public void getDriver() {
 		System.out.println("Getting the edge driver!!");
 	}
+
+	@Override
+	public void run() {
+		System.out.println("Edge browser running!");
+	}
 }
