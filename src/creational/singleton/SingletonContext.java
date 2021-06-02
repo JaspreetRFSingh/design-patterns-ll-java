@@ -6,7 +6,7 @@ public class SingletonContext {
 	private SingletonContext() {
 	}
 	
-	public static SingletonContext getInstance() {
+	public synchronized static SingletonContext getInstance() {
 		if(uniqueInstance == null) {
 			uniqueInstance = new SingletonContext();
 		}
