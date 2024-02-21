@@ -1,6 +1,9 @@
+*.iml
 .metadata
 bin/
 tmp/
+.idea/
+out/
 # Eclipse Core      
 .project
 
