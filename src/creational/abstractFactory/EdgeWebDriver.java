@@ -1,4 +1,4 @@
-package creational.factory;
+package creational.abstractFactory;
 
 public class EdgeWebDriver implements WebDriver{
 	@Override

@@ -1,8 +1,5 @@
 package creational.factoryMethod;
 
-import creational.factory.EdgeDriverFactory;
-import creational.factory.WebDriverFactory;
-
 public class WorkingExample {
 
 	public static void main(String[] args) {
